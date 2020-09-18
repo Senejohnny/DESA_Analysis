@@ -1,0 +1,32 @@
+ Type for categorical data with the categories and orderedness.
+    Parameters
+    ----------
+    path : string
+        path to the file
+    ordered : bool or None, default False
+        Whether or not this categorical is treated as a ordered categorical.
+        None can be used to maintain the ordered value of existing categoricals when
+        used in operations that combine categoricals, e.g. astype, and will resolve to
+        False if there is no existing ordered to maintain.
+    
+    Attributes
+    ----------
+    None
+
+    Methods
+    -------
+    None
+
+    See Also
+    --------
+    None
+
+    Notes
+    -----
+    This class is useful for specifying the type of a ``Categorical``
+    independent of the values. See :ref:`categorical.categoricaldtype`
+    for more.
+    
+    Examples
+    --------
+    None
